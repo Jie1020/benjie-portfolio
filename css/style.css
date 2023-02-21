@@ -95,12 +95,48 @@ nav ul li a{
 
 
 /*!--PORTFOLIO SECTION-->*/
-.portfolio{
+/* .portfolio{
     background-color: #362D2D;
     height: 200vh;
     padding: 50px 0;
     text-align: center;
     color: #ffffff;
+    font-size: 60px;
+
+}
+
+.portfolio__container{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:40px;
+    padding: 5%;
+    margin-top: 50px;
+}
+
+.portfolio h2{
+    margin-top:1%;
+    font-size: 60px;
+}
+
+.portfolio__img{
+    border-radius: 10px;
+    position: relative;
+}
+
+.portfolio__img img{
+    object-fit: cover; 
+    width: 400px;
+    height: 500px;
+    object-position: 5% 100%;
+    display: block;
+} */
+
+
+.portfolio{
+    height: 100vh;
+    padding: 50px 0;
+    text-align: center;
+    color: #362D2D;
     font-size: 60px;
 
 }
@@ -125,9 +161,9 @@ nav ul li a{
 
 .portfolio__img img{
     object-fit: cover; 
-    width: 400px;
-    height: 500px;
-    object-position: 5% 100%;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
     display: block;
 }
 /*<!--CONTACT SECTION-->*/
