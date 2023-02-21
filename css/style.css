@@ -86,14 +86,53 @@ nav ul li a{
     padding-right: 5%;
 
 }
-.about-skills__h3--1{
-    border-bottom: 3px solid #e7e7eb;
+/* .about-skills__h3--1{
+     border-bottom: 3px solid #e7e7eb;
     width: 10%;
-    margin-right: 50px;
-}
+    margin-right: 50px; 
+} */
+
+
 
 /*!--PORTFOLIO SECTION-->*/
+.portfolio{
+    background-color: #362D2D;
+    height: 200vh;
+    padding: 50px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
 
+}
+
+.portfolio__container{
+    display: grid; /*two-dimensional*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:40px;
+    padding: 5%;
+    margin-top: 50px;
+}
+
+.portfolio h2{
+    margin-top:1%;
+    font-size: 60px;
+}
+
+.portfolio__img{
+    border-radius: 10px;
+    position: relative;
+}
+
+.portfolio__img img{
+    object-fit: cover; 
+    width: 400px;
+    height: 500px;
+    object-position: 5% 100%;
+    display: block;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+}
 /*<!--CONTACT SECTION-->*/
 
 /*<!--FOOTER SECTION-->*/
