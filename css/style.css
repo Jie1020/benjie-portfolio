@@ -7,3 +7,23 @@
 body{
     font-family: 'Gloock', serif;
 }
+.header{
+    height: 100vh;
+    background-image:linear-gradient(rgba(3,4,7,0.48),rgba(5,10,30,0.48)),url('https://raw.githubusercontent.com/Jie1020/image-resources/main/ME.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.header-brand{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 45px;
+}
+.header-brand_span{
+    color: aquamarine;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
