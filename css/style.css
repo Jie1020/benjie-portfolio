@@ -9,7 +9,7 @@ body{
 }
 .header{
     height: 100vh;
-    background-image:linear-gradient(rgba(3,4,7,0.48),rgba(5,10,30,0.48)),url('https://raw.githubusercontent.com/Jie1020/image-resources/main/ME.jpg');
+    background-image:linear-gradient(rgba(3,4,7,0.48),rgba(5,10,30,0.48)),url('https://github.com/Jie1020/image-resources/blob/main/wood-background-texture-neutral.jpg?raw=true');
     background-size: cover;
     background-position: center;
 }
@@ -46,3 +46,19 @@ nav ul li a{
 .header-text h1{
     font-size: 70px;
 }
+/*!--ABOUT ME-->*/
+.about{
+    background-color: #181823;
+    height: 80vh;
+}
+.about-me-text{
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+/*!--PORTFOLIO SECTION-->*/
+
+/*<!--CONTACT SECTION-->*/
+
+/*<!--FOOTER SECTION-->*/
