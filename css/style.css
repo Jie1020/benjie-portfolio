@@ -51,12 +51,47 @@ nav ul li a{
     background-color: #181823;
     height: 80vh;
 }
+
 .about-me-text{
     color: aliceblue;
     margin: auto;
     text-align: center;
     width: 50%;
 }
+
+.about-me-text h2{
+    font-size: 60px;
+    padding-top: 6rem;
+}
+
+.about-me-text p{
+    padding-top: 2rem;
+    line-height: 1.8rem;
+}
+
+.about-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 3%;
+
+    color: aliceblue;
+    
+
+}
+
+.about-skills h3{
+    padding-right: 5%;
+
+}
+.about-skills__h3--1{
+    border-bottom: 3px solid #e7e7eb;
+    width: 10%;
+    margin-right: 50px;
+}
+
 /*!--PORTFOLIO SECTION-->*/
 
 /*<!--CONTACT SECTION-->*/
