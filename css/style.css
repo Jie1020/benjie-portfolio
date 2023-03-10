@@ -52,6 +52,11 @@ nav ul li a{
 .header-text h1{
     font-size: 70px;
 }
+
+.header-text--2 {
+    display: none;
+}
+
 /*!--ABOUT ME-->*/
 .about{
     background-color: #181823;
@@ -260,8 +265,10 @@ form textarea {
 @media only screen and (max-width: 600px) {
 
     .header {
-        background-image: none;
-        background-color: #242323;
+        height: 100vh;
+        background-image:linear-gradient(rgba(3,4,7,0.48),rgba(5,10,30,0.48)),url('https://github.com/Jie1020/image-resources/blob/main/wood-background-texture-neutral.jpg?raw=true');
+        background-size: cover;
+        background-position: center;
     }
 
     .header__image {
@@ -309,7 +316,7 @@ form textarea {
 @media only screen and (max-width: 600px) {
     .about {
         padding-top: 10%;
-        height: 150vh;
+        height: 80vh;
     }
 
     .about-img {
