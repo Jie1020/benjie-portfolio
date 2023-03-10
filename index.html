@@ -16,7 +16,6 @@
   <body>
     <!--HEADER SECTION-->
 
-    <header>
       <header>
         <div class="header" id="home">
           <nav class=" fixed-top navbar navbar-expand-lg navbar-light bg-dark navbar-dark"
@@ -40,23 +39,26 @@
           </nav>
           <!-- Desktop -->
           <div class="header-text">
-              <h1>Benjie Gorgod</h1>
-              <h2>Front-end Web Developer</h2>
-          </div>
-
-          </div>
+            <h1>Benjie Gorgod</h1>
+            <h2>Front-end Web Developer</h2>
+        </div>
+        <!-- Mobile 600 max-width -->
+        <div class="header-text--2">
+            <h1>Web Developer</h1>
+            <h2>Hi I am, <span>Benjie Gorgod</span>
+            </h2>
+        </div>
       </div>
     </header>
 
     <!--ABOUT ME SECTION-->
     <section>
-      <div class="about">
+      <div class="about" id="about">
         <div class="about-me-text">
             <h2>ABOUT ME</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum qui
-              excepturi maiores, nulla, natus similique amet pariatur quod placeat
-              consequatur voluptates adipisci fugit vel.
+              I am a web developer, I have a passion for web development. I have a passion for  
+              design and I love to create beautiful and beautiful things.
             </p>
         </div>
             <div class="about-skills">
@@ -68,40 +70,44 @@
     </section>
     <!--PORTFOLIO SECTION-->
     <section>
-        <div class="portfolio">
+        <div class="portfolio" id="about">
             <h2>MY PORTFOLIO</h2>
             <div class="portfolio__container">
                 <div class="portfolio__img"><img src="https://github.com/Jie1020/image-resources/blob/main/warrior.png?raw=true" alt="dog photo blog"></div>
                 <div class="portfolio__img"><img src="https://github.com/Jie1020/image-resources/blob/main/mage.png?raw=true" alt="sample image2"></div>
                 <div class="portfolio__img"><img src="https://github.com/Jie1020/image-resources/blob/main/conjurer.png?raw=true" alt="sample image3"></div>
             </div>
-            <a href="#" class="portfolio_btn">See More</a>
+            <!-- <a href="#" class="portfolio_btn">See More</a> -->
         </div>
     </section>
     <!--CONTACT SECTION-->
     <section>
-        <div class="contact">
-            <div class="contact__container">
-                <div class="contact__row">
-                    <div class="contact-left">
-                      <h2>Contanct Me</h2>
-                        <div class="contact-left__icons">
-                            
-                        </div>
-                        <a href="#" class="contact__btn contact__btn--1">Download CV</a>
-                    </div>
-                    <div class="contact-right">
-                        <form action="">
-                            <!--<input type="text">
-                            <input type="text">
-                            <textarea name="" id="" cols="30" rows="10"></textarea>-->
-                        </form>
-                            <button>Submit</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+      <div class="contact" id="contact">
+          <div class="contact__container">
+              <div class="contact__row">
+                  <div class="contact-left">
+                      <h2>Contact Me</h2>
+                      <p><i class="fa-sharp fa-solid fa-envelope-circle-check"></i>Benjie.gorgod@gmail.com</p>
+                      <p><i class="fa-solid fa-phone"></i>0906240xxxx</p>
+                      <div class="contact-left__icons">
+                          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                      <a href="downloads/sample-cv.pdf" download class="contact__btn contact__btn--1">Download CV</a>
+                  </div>
+                  <div class="contact-right">
+                      <form action="">
+                          <input type="text" placeholder="Your name" required>
+                          <input type="text" placeholder="Your email" required>
+                          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                          <button type="submit" class="contact__btn contact__btn--2">Submit</button>
+                      </form>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
     <!--FOOTER SECTION-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
