@@ -16,6 +16,9 @@ body {
     background-size: cover;
     background-position: center;
 }
+.header__image {
+    display: none;
+}
 .header-brand{
     color: aliceblue;
     text-decoration: none;
@@ -172,7 +175,7 @@ nav ul li a{
 }
 
 .contact-left p i {
-    color: #20E700;
+    color: #7cd6f1;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -191,14 +194,14 @@ nav ul li a{
 }
 
 .contact-left__icons a:hover {
-    color: #45893A;
+    color: #3a7989;
     transform: translateY(-5px);
 }
 
 .contact__btn {
     display: block;
     margin: 50px auto;
-    border: 1px solid #2ecc71;
+    border: 1px solid #2ec7cc;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -207,7 +210,7 @@ nav ul li a{
 }
 
 .contact__btn:hover {
-    background: #2ecc71;
+    background: #2eccbf;
 }
 
 .contact__btn.contact__btn--1 {
@@ -248,3 +251,115 @@ form textarea {
     cursor: pointer;
 }
 /*<!--FOOTER SECTION-->*/
+
+
+
+/*-------------------------MEDIA QUERIES -------------------------*/
+
+/*-------------------------HERO SECTION -------------------------*/
+@media only screen and (max-width: 600px) {
+
+    .header {
+        background-image: none;
+        background-color: #242323;
+    }
+
+    .header__image {
+        display: block;
+    }
+
+    .header__image img {
+        object-fit: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .header-text {
+        display: none;
+    }
+
+    .header-text--2 {
+        display: block;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+    }
+
+    .header-text--2 h2 {
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 1.8;
+    }
+
+    .header-text--2 span {
+        color: #00e7e7;
+    }
+}
+
+/*-------------------------ABOUT SECTION -------------------------*/
+
+/*****BREAKPOINT MOBILE 600px**************/
+@media only screen and (max-width: 600px) {
+    .about {
+        padding-top: 10%;
+        height: 150vh;
+    }
+
+    .about-img {
+        display: block;
+        text-align: center;
+        padding: 0 3% 5% 0;
+    }
+
+    .about-img img {
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        transition-delay: 0.01s;
+    }
+
+    .about-img img:hover {
+        transform: translate(-5px, -10px);
+        cursor: pointer;
+        box-shadow: 13px 10px 5px 0px rgba(133,121, 121, 0.75);
+        -webkit-box-shadow: 13px 10px 5px 0px rgba(133,121, 121, 0.75);;
+        -moz-box-shadow: 13px 10px 5px 0px rgba(133,121, 121, 0.75);
+    }
+
+    .about-text{
+        width: 80%;
+    }
+
+   .about-text h2{
+        font-size: 50px;
+        padding-top: 0;
+
+   }
+
+   .about-text p{
+    text-align: left;
+   }
+
+   .about__content{
+  
+    color: white; 
+    
+   }
+
+   .about__content p{
+    margin: 5% auto;
+    margin-left: 10%;
+
+   }
+
+   .about__para--1{
+    color: #20E700;
+   }
+}
